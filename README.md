@@ -7,7 +7,7 @@
 3.	Створення HTML сторінки та занесення її в Docker Image. Залити даний Docker Image на Docker Hub.
 4.	Скачати Docker Image когось із групи і розвернути в себе контейнер з HTML сторінкою на порті 8086 ззовні.
 # Хід роботи
-![alt text]([http://url/to/img.png](https://cdn.discordapp.com/attachments/847890019908583494/1034112982940131328/unknown.png))
+![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034112982940131328/unknown.png)
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113373786341507/unknown.png)
 Мій yml:
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113634080673902/unknown.png)
