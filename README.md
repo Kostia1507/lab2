@@ -7,10 +7,12 @@
 3.	Створення HTML сторінки та занесення її в Docker Image. Залити даний Docker Image на Docker Hub.
 4.	Скачати Docker Image когось із групи і розвернути в себе контейнер з HTML сторінкою на порті 8086 ззовні.
 # Хід роботи
+
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034112982940131328/unknown.png)
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113373786341507/unknown.png)
 
 Мій yml:
+
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113634080673902/unknown.png)
 
 2 Завдання
@@ -26,12 +28,15 @@ YAML — зручний для читання людиною формат сер
 •	YAML легко реалізується, (можливо, занадто легко);
 •	YAML використовує цілісну модель даних. Немає винятків — немає безладу.
 Синтаксис YAML мінімальний, особливо в порівнянні з XML синтаксисом
+
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113749902164108/unknown.png)
 
 Перейти до localhost:8080
+
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113859750998066/unknown.png)
 
 HTML:
+
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034113958732365934/unknown.png)
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034114157630455828/unknown.png)
 ![alt text](https://cdn.discordapp.com/attachments/847890019908583494/1034114173841444914/unknown.png)
