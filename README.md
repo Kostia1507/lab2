@@ -18,4 +18,5 @@ systemctl enable httpd
 ![img](https://media.discordapp.net/attachments/1034852712384315472/1039190883112857681/image.png)
 ![img](https://cdn.discordapp.com/attachments/1034852712384315472/1039190956227965020/image.png)
 ![img](https://cdn.discordapp.com/attachments/1034852712384315472/1039190996107403324/image.png)
+
 Link: http://3.75.186.179/
