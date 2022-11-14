@@ -1,6 +1,6 @@
 provider "aws"{
-    access_key = "AKIA45MNGDZV3J3EEFUL"
-    secret_key = "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"
+    access_key = "my key was here"
+    secret_key = "my secret key was here"
     region = "eu-central-1" 
 }
 
@@ -24,7 +24,7 @@ EOF
 
 resource "aws_key_pair" "myKeys" {
   key_name = "kostia"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsCI/TKqn+ct+1gXNQYGT8LgxE/LV4ghT7pqIRuZaKYH2lF37RvSj6cgd5f+3WmRqyNDP86cLaipjVOTTGJMJRPVTyMIOAHFQoWnB6Hr0PW9Oe1ZoyUaU7y96gAU5ZKYMIR3oPwT4OHrmvU49STCuzAsD3wMjwwCF+Yq5/ar+zGOqNODh1ukcjVB8ibMBEieky8dAVOsWEbHP72cYbpqQuEZPpjZZ4siKv18BSJ6lRRpDrgIRJ62+IJ9GisxLNzd9YKYEJSh9AzKCaj7QkzW+85kDEXObHDo3b+XsTpOOkw4SrIcv15MmQmePl/ukgdkQ1xBn6yetl5dJi6T6+juKr8ddNg5ASEP1H/sVLPPQBWm0rqmv8psmaUr6by1AXaAEhCe7tpOCXmpAFiQWecjE56qQq41Dmnw+dS9nZ36BkpRA0k1BHvaOn/6wPigA7EiefJdU4EaSFfDVfwEi2etb8S58+6Blyyx5M9tJpOBpQnnNGcKJdo2/IGnHuCtYN+xc= kosti@DESKTOP-5QLBSRH"
+  public_key = "ssh-rsa AAA(my key)xc= kosti@DESKTOP-5QLBSRH"
 }
 
 resource "aws_security_group" "ubuntuSecurity"{
