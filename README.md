@@ -8,6 +8,7 @@
 # Хід роботи
 Виконувати цю лабараторну я вирішив на AWS. Для цього реєструємо акаунт.
 Отримуємо Access key та Secret access key
+
 ![aws](https://cdn.discordapp.com/attachments/1032017662575902805/1041678098258731008/image.png)
 
 Далі, скачуємо тераформ для Windows.
@@ -16,11 +17,13 @@
 Або можна пропустити цей крок, якщо закинути файл в System32. Ця папка вже там вказана.
 
 Перейдемо до коду. Для початку треба вказати провайдера. Так же добавляю один інстанс юбунту(вказавши його ami)
+
 ![terraform](https://media.discordapp.net/attachments/1032017662575902805/1041679481716363394/image.png)
 
 Після цього, переходимо в консоль. Перейшовши в папку з тераформ файлом, вводимо terraform init.
 На цьому етапі тераформ загрузить всі необхідні йому файли, для роботи з AWS.
 Якщо ввести terraform apply то тераформ створить один інстанс, як ми йому і вказали
+
 ![instance](https://cdn.discordapp.com/attachments/1032017662575902805/1041679740345524244/image.png)
 
 ![instance](https://cdn.discordapp.com/attachments/1032017662575902805/1041680150787526666/image.png)
@@ -83,6 +86,7 @@
 Можна логінитись і виконувати завдання 4.
 Нажавши на інстанс, і кнопку Connect, можна скопіювати команду. Для мене це:
 ssh -i "kostia.pem" ubuntu@ec2-3-68-221-12.eu-central-1.compute.amazonaws.com
+
 ![connect](https://media.discordapp.net/attachments/1032017662575902805/1041682076883222618/image.png)
 
 Вводимо такі команди:
@@ -92,6 +96,7 @@ sudo systemctl start apache2
 sudo systemctl enable apache2`
 
 Цим ми встановити пакет Apache. Наш сайт майтиме такий вигляд:
+
 ![page](https://media.discordapp.net/attachments/1032017662575902805/1041683647050297376/image.png)
 
 Щоб замінити сторінку, треба вказати свій код.
